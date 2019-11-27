@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/budget"
+        android:icon="@drawable/baseline_folder_black_18dp"
+        android:title="Add Budget"/>
+    <item android:id="@+id/spendings"
+        android:icon="@drawable/baseline_add_shopping_cart_black_18dp"
+        android:title="Add Spendings"/>
+    <item android:id="@+id/signOut"
+        android:icon="@drawable/baseline_assignment_return_black_18dp"
+        android:title="Sign Out"/>
+    <item android:id="@+id/prediction"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Prediction"/>
+
+</menu>

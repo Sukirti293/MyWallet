@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="400dp"
+    android:layout_height="400dp">
+
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"/>
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/category_selection"
+        android:entries="@array/spending_categories_array"
+        android:gravity="center"
+        android:layout_below="@+id/text"/>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:hint="Enter the amount"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Done" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/amount"
+        android:text="Add next" />
+
+</RelativeLayout>

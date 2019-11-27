@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="DATABASE_NAME">wallet.db</string>
+    <string name="TABLE_NAME">WALLET_TABLE</string>
+    <string name="FIRST_NAME">FIRST_NAME</string>
+    <string name="LAST_NAME">LAST_NAME</string>
+    <string name="EMAIL_ID">EMAIL_ID</string>
+    <string name="PASSWORD">PASSWORD</string>
+    <string name="CONFIRM_PASSWORD">CONFIRM_PASSWORD</string>
+    <string name="DOB">DOB</string>
+    <string name="PHONE_NO">PHONE_NO</string>
+    <string name="USERNAME">USERNAME</string>
+    <string name="EXPENSE_TABLE">EXPENSE_TABLE</string>
+    <string name="TOTALAMOUNT">TOTALAMOUNT</string>
+    <string name="SPENDINGS">SPENDINGS</string>
+    <string name="REMAINED">REMAINED</string>
+
+
+
+</resources>
